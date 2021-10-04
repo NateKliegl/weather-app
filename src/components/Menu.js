@@ -5,6 +5,7 @@ import { clearLocation, clearSearch, clearUser } from "../redux/actions";
 function Menu({ user, clearLocation, clearUser, clearSearch }) {
   return (
     <nav>
+      {user}
       {!user && (
         <NavLink className="link" activeClassName="active" to="/login">
           Login

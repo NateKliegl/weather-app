@@ -38,7 +38,7 @@ function LoginPage() {
             setError(true);
             return;
           }
-          setUsername(username);
+          setUser(username);
         }}
       >
         Login
