@@ -4,8 +4,8 @@ import userReducer from "./user.reducer";
 import locationReducer from "./locations.reducer";
 
 const rootReducer = combineReducers({
-  searchReducer,
-  userReducer,
-  locationReducer,
+  search: searchReducer,
+  user: userReducer,
+  location: locationReducer,
 });
 export default rootReducer;
